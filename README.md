@@ -21,24 +21,9 @@ To verify the installation, open a terminal and run:
 node -v
 npm -v
 ```
-### 2. Set Up React
-React is used to build the frontend of this application. To install and initialize the project with React, use the following command:
-
-```bash
-npx create-react-app aibot
-```
-
-Note: The above command will create a new React project. You can replace my-app with your project name if preferred. If you're working with an existing project, React dependencies will be installed automatically with npm install in the project root directory.
-
-After running npm install, you can launch the React application:
-
-```bash
-npm start
-```
-It will then run it on http://localhost:3000
 
 
-### 3. Install MongoDB
+### 2. Install MongoDB
 MongoDB is the database for this project. You can set it up locally or use MongoDB Atlas, a cloud-based solution.
 
 Local Installation: Download and install MongoDB Community Edition for a local database.
@@ -55,6 +40,40 @@ To verify MongoDB installation, run:
 ```bash
 mongod --version
 ```
+
+### 4. Install Cursor SO
+Cursor is an AI code editor. 
+Built to make you extraordinarily productive, Cursor is the best way to code with AI, especially when we are going to code for 2.5 hrs.
+
+
+Commands
+
+You need to enable composer first before you can use it in the **settings** section (hit settings wheel on the right hand side)
+
+CMD + Shift + P = Command pallete. Write New Composer or New Chat and it will open
+CMD + Shift + I  // CTRL + Shift + I = Composer
+CMD + K // CTRL + K = AI helper in the text file
+Tab -> auto fill
+
+Download Cursor
+**[Download Cursor](https://www.cursor.com/)**
+
+### 3. Set Up React
+React is used to build the frontend of this application. To install and initialize the project with React, use the following command:
+
+```bash
+npx create-react-app aibot
+```
+
+Note: The above command will create a new React project. You can replace my-app with your project name if preferred. If you're working with an existing project, React dependencies will be installed automatically with npm install in the project root directory.
+
+After running npm install, you can launch the React application:
+
+```bash
+npm start
+```
+It will then run it on http://localhost:3000
+
 
 ### 4. Environment Configuration
 Create a .env file in the project root directory to store environment-specific variables, such as the MongoDB URI and server port. This file will be read by the application during runtime.
