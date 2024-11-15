@@ -1,3 +1,7 @@
+###SK 
+https://docs.google.com/spreadsheets/d/1xk2VAtbLkK2SJYJVeFATKuuAMIIsepWAgEg7-Inzfc0/edit?usp=sharing
+
+
 # Project Setup and Prerequisites
 
 This document provides a step-by-step guide to setting up the prerequisites and configuring the project environment to run locally. Please follow each step carefully.
